@@ -1,0 +1,63 @@
+.grid-header__container{
+    display: grid;
+    grid-template-columns:67% 33%;
+    height: 715px;
+}
+.grid-header__item1{
+    background-color: blue;
+    color: white;
+    border: 1px solid black;
+ 
+   
+   
+}
+
+.grid-header__item2{
+    background-color: #f3f3f3;
+    padding:57px 47px 57px 54px
+      
+
+}
+.grid-header__item2-btn-burger{
+   
+    padding: 0;
+    border: none;
+    margin-bottom: 42px
+
+};
+.grid-header__item2-btn-burger-icon{ 
+    width: 33px;
+    height: 29px;};
+
+
+.grid-header__item2-title{
+    font-size: 40px;
+    letter-spacing: normal;
+    line-height: 1.45;
+    color:#262f32;
+    &--first{
+      font-weight: 300;
+      margin-bottom: 18px;}
+    &--second{
+        font-weight: 700;
+        margin-bottom: 18px;
+    }
+    &--third{
+        font-weight: 500;
+        margin-bottom: 40px;
+    }
+};
+
+.grid-header__item2-text{
+    
+    color: #262f32;
+    font-family: "Roboto",sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.62px;
+    line-height: 1.55;
+    margin-bottom: 32px;
+
+};
+                   

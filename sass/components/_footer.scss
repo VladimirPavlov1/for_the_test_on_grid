@@ -1,0 +1,130 @@
+.grid-footer__container{
+    display: grid;
+    grid-template-columns:33% 67%;
+    height: 704px;
+}
+.grid-footer__item1{
+    background-color:white;
+    background-image: url('../../imagine/footer/author_page_back.jpg');
+    background-size: cover;
+    color: white;
+ 
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    padding: 64px 38px 48px 48px;
+   
+}
+
+.grid-footer__item2{
+    background-color:white;
+    background-image: url('../../imagine/footer/form_background@1x.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+   
+    font-family: Roboto,sans-serif;
+    font-size: 18px;
+    padding: 64px 54px; 
+}
+
+.overlay{
+    background-color: #5a665f;
+opacity: 0.5;
+}
+
+.author-signature__title-wrapper{
+
+    margin-bottom: 256px;
+
+}
+.author-signature__title{
+ 
+color: #ffffff;
+font-size: 45px;
+font-style: normal;
+letter-spacing: 1.35px;
+line-height: 1.47;
+
+&--light{
+    font-weight: 300;
+    margin-bottom: 16px;
+}
+&--bold{
+    font-weight: 900;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+}
+
+}; 
+.author-signature__btn{
+    width: 90px;
+    height: 90px;
+    border: none;
+    background-image: url('../../imagine/footer/author-logo.jpg');
+    margin-bottom: 22px;
+    padding:0;
+
+};
+.author-signature__small-title{
+    font-size: 42px;
+    line-height: 1.57;
+    margin-bottom: 48px
+};
+.author-signature__text{
+color: #ffffff;
+font-size: 17px;
+font-weight: 400;
+font-style: normal;
+letter-spacing: 0.5px;
+line-height: 1.57;
+
+};
+.form-title-wrapper{
+    display: flex;
+    gap: 16px;
+}
+.form-title{
+
+    font-size: 45px;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    color: #ffffff;
+
+&--bold{
+    font-weight: 900;
+    font-weight: 900;
+    letter-spacing: 1.35px;
+    line-height: 1.46;
+
+}
+}
+.form-user-name{
+    
+width: 302px;
+height: 55px;
+border: 1px solid #ffffff;
+border-radius: 10px;
+background-color: rgba(0, 0, 0, 0);
+margin-right: 16px;
+margin-bottom: 16px;
+}
+.form-user-email{
+
+width: 302px;
+height: 55px;
+border: 1px solid #ffffff;
+border-radius: 10px;
+background-color: rgba(0, 0, 0, 0);
+}
+
+.area-text{
+   
+width: 628px;
+height: 159px;
+border: 1px solid #ffffff;
+border-radius: 10px;
+background-color: rgba(0, 0, 0, 0);
+}
