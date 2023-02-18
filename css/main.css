@@ -46,7 +46,7 @@ img {
 
 .grid-header__item2 {
   background-color: #f3f3f3;
-  padding: 57px 47px 57px 54px;
+  padding: 57px 47px 46px 54px;
 }
 
 .grid-header__item2-btn-burger {
@@ -102,6 +102,7 @@ img {
   grid-area: item1;
   background-color: white;
   background-image: url("../../imagine/skills/skills-background@1x.jpg");
+  background-size: cover;
   color: white;
   font-family: Roboto, sans-serif;
   font-size: 18px;
@@ -112,6 +113,7 @@ img {
   grid-area: item2;
   background-color: white;
   background-image: url("../../imagine/skills/Background_best@1x.jpg");
+  background-size: cover;
   color: #262f32;
   font-family: Roboto, sans-serif;
   font-size: 18px;
@@ -122,6 +124,7 @@ img {
   grid-area: item3;
   background-color: white;
   background-image: url("../../imagine/skills/veriffied_background@1x.jpg");
+  background-size: cover;
   color: white;
   font-family: Roboto, sans-serif;
   font-size: 18px;
@@ -130,7 +133,7 @@ img {
 
 .skills-list {
   font-family: Roboto, sans-serif;
-  padding-bottom: 48px;
+  margin-bottom: 48px;
 }
 
 .skills-item__title {
@@ -200,6 +203,7 @@ img {
 .grid-footer__item1 {
   background-color: white;
   background-image: url("../../imagine/footer/author_page_back.jpg");
+  background-repeat: no-repeat;
   background-size: cover;
   color: white;
   font-family: Roboto, sans-serif;
@@ -274,6 +278,7 @@ img {
   display: -ms-flexbox;
   display: flex;
   gap: 16px;
+  margin-bottom: 40px;
 }
 
 .form-title {
@@ -291,6 +296,10 @@ img {
   line-height: 1.46;
 }
 
+.form {
+  margin-bottom: 86px;
+}
+
 .form-user-name {
   width: 302px;
   height: 55px;
@@ -299,6 +308,52 @@ img {
   background-color: rgba(0, 0, 0, 0);
   margin-right: 16px;
   margin-bottom: 16px;
+  padding: 12px 27px;
+}
+.form-user-name::-webkit-input-placeholder {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+}
+.form-user-name::-moz-placeholder {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+}
+.form-user-name:-ms-input-placeholder {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+}
+.form-user-name::-ms-input-placeholder {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+}
+.form-user-name::placeholder {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
 }
 
 .form-user-email {
@@ -307,6 +362,52 @@ img {
   border: 1px solid #ffffff;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0);
+  padding: 12px 27px;
+}
+.form-user-email::-webkit-input-placeholder {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+}
+.form-user-email::-moz-placeholder {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+}
+.form-user-email:-ms-input-placeholder {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+}
+.form-user-email::-ms-input-placeholder {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+}
+.form-user-email::placeholder {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
 }
 
 .area-text {
@@ -315,4 +416,92 @@ img {
   border: 1px solid #ffffff;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0);
+  padding: 12px 27px;
+}
+.area-text::-webkit-input-placeholder {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+}
+.area-text::-moz-placeholder {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+}
+.area-text:-ms-input-placeholder {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+}
+.area-text::-ms-input-placeholder {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+}
+.area-text::placeholder {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+}
+
+.form-social-links-part__title {
+  color: #ffffff;
+  font-size: 17px;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.5px;
+  line-height: 1.9;
+  margin-bottom: 16px;
+}
+
+.form-social-links-part__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 6px;
+}
+
+.form-social-links-part__item {
+  margin-bottom: 42px;
+}
+
+.form-social-links-part__btn {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: -webkit-transform 300ms;
+  transition: -webkit-transform 300ms;
+  transition: transform 300ms;
+  transition: transform 300ms, -webkit-transform 300ms;
+}
+.form-social-links-part__btn:hover {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+}
+
+.form-social-links-part__icon {
+  width: 45px;
+  height: 45px;
 }/*# sourceMappingURL=main.css.map */
