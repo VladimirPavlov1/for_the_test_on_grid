@@ -253,7 +253,7 @@ img {
   width: 90px;
   height: 90px;
   border: none;
-  background-image: url("../../imagine/footer/author-logo.jpg");
+  background-image: url("../imagine/footer/author-logo.jpg");
   margin-bottom: 22px;
   padding: 0;
 }
